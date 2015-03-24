@@ -1,6 +1,8 @@
 # agenda
 Teste_Estágio_Print4me
 - Para a execução desta aplicação foi instalada a versão básica do bootstrap
+- Uso do php5
+- Banco de dados Mysql
 - O Arquivo principal para a execução da agenda é cadastro.html
 Foi criado um banco de dados com o nome de agendadb,
 com uma única tabela conforme abaixo:
