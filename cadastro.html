@@ -1,0 +1,41 @@
+ <h1>Inserir Cadastro</h1>
+<ul class="nav nav-tabs">
+  <li role="presentation" class="active"><a href="cadastro.html">Cadastrar</a></li>
+  <li role="presentation"><a href="alterar.php">Listar/Alterar</a></li>
+  <li role="presentation"><a href="apagar.php">Apagar</a></li>
+</ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Cadastro de Contatos</h2>
+  <form class="form-group" role="form" method="post" action="cadastro.php">
+ 
+      <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" name="email" placeholder="Insira E-mail" required data-fv-notempty-message="The username is required"
+
+	
+    </div>
+    <div class="form-group">
+      <label for="pwd">Telefone:</label>
+      <input type="number" class="form-control" name="telefone" placeholder="Insira Telefone"
+	minlength="10"
+                data-fv-stringlength-message="The full name must be more than 10 and less than 40 characters"</>
+    </div>
+        <input type="submit" class="btn btn-default"></button>
+  </form>
+</div>
+
+</body>
+</html>
+
